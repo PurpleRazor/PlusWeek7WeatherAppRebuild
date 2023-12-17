@@ -24,3 +24,8 @@ ul {
   display: flex;
   justify-content: space-around;
 }
+
+footer {
+  font-size: 15px;
+  opacity: 0.8;
+}
