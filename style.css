@@ -32,7 +32,7 @@ ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: 30px;
   font-size: 20px;
 }
 
@@ -40,4 +40,5 @@ footer {
   font-size: 11px;
   opacity: 0.9;
   font-family: monospace;
+  padding: 10px;
 }
