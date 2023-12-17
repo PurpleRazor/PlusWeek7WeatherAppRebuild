@@ -5,12 +5,9 @@
   background-color: white;
 }
 
-document {
-  background-color: blueviolet;
-}
-
 body {
   text-align: center;
+  background-color: blueviolet;
 }
 
 h1 {
