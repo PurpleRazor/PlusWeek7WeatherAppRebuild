@@ -2,6 +2,11 @@
   max-width: 400px;
   margin: 0 auto;
   padding-top: 40px;
+  background-color: white;
+}
+
+document {
+  background-color: blueviolet;
 }
 
 body {
