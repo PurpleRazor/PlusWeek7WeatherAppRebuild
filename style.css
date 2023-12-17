@@ -37,6 +37,7 @@ h1 {
 
 h2 {
   font-size: 40px;
+  text-align: left;
 }
 
 ul {
@@ -45,6 +46,14 @@ ul {
   justify-content: space-around;
   padding: 30px;
   font-size: 20px;
+}
+
+.weather-emoji {
+  font-size: 60px;
+}
+
+.weather-temp {
+  font-size: 60px;
 }
 
 footer {
