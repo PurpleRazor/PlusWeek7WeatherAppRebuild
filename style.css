@@ -26,6 +26,7 @@ ul {
 }
 
 footer {
-  font-size: 15px;
-  opacity: 0.8;
+  font-size: 11px;
+  opacity: 0.9;
+  font-family: monospace;
 }
