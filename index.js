@@ -1,6 +1,6 @@
 function handleSearchSubmit(event) {
   event.preventDefault();
-  let seachInput = documet.querySelector("#search-input");
+  let searchInput = documet.querySelector("#search-input");
   console.log(seachInput.value);
 }
 
