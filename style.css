@@ -63,11 +63,16 @@ ul {
 }
 
 .weather-emoji {
-  font-size: 40px;
+  width: 100px;
 }
 
 .weather-temp {
+  margin-top: 20px;
   font-size: 50px;
+}
+
+.other-metrics {
+  margin-top: 15px;
 }
 
 footer {
