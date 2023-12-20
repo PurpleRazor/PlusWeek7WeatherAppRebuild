@@ -8,7 +8,6 @@
 }
 
 body {
-  text-align: center;
   background-color: rgb(237, 213, 239);
 }
 
@@ -33,6 +32,7 @@ body {
 
 .city-search-form {
   margin: 10px;
+  text-align: center;
 }
 
 h2 {
@@ -75,9 +75,29 @@ ul {
   margin-top: 15px;
 }
 
+.weather-forecast {
+  text-align: center;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: black;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
 footer {
   font-size: 11px;
   opacity: 0.9;
   font-family: monospace;
   padding: 10px;
+  text-align: center;
+  margin: 20px;
 }
