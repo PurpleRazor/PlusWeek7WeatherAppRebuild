@@ -89,6 +89,13 @@ ul {
   color: black;
 }
 
+.weather-forecast-icon {
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
 .weather-forecast-temperatures {
   font-size: 13px;
 }
