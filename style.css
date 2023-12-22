@@ -1,7 +1,7 @@
 #container {
   max-width: 600px;
   margin: 40px auto;
-  padding: 30px;
+  padding: 20px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 12px 12px 2px 1px rgba(114, 114, 132, 0.2);
@@ -57,9 +57,13 @@ hr {
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
-  padding: 30px;
-  font-size: 20px;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.current-weather {
+  margin: 20px 0 0 0 auto;
 }
 
 #day-time {
@@ -69,19 +73,25 @@ ul {
 .weather-emoji {
   width: 100px;
   height: 100px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -13px;
 }
 
 .weather-temp {
   margin-top: 20px;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .other-metrics {
   margin-top: 15px;
+  text-align: center;
 }
 
 .weather-forecast {
   text-align: center;
+  margin: 10px 0 0 0 auto;
 }
 
 .weather-forecast-date {
@@ -107,7 +117,7 @@ ul {
 .weather-forecast {
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 footer {
@@ -116,5 +126,5 @@ footer {
   font-family: monospace;
   padding: 10px;
   text-align: center;
-  margin: 20px;
+  margin: 40px 0 0 0;
 }
